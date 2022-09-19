@@ -80,13 +80,13 @@ disqusShortname = ""
 
   # Header configuration
     # your subtitle if you want to use any
-    subtitle = "Hello World! I thought it help to document the life as a female software engineer."
+    subtitle = "Hello World! I am constantly learning and happen to be a female software engineer. I thought it would be fun to document my thoughts, resources that help me, and journey."
 
     # if you want to use libravatar or gravatar for the header image
-    #avatarEmail = "code@lednerb.de"
+    avatarEmail = ""
 
     # set an path to the image file you want to use | overwrites avatar by email
-    customImage = ""
+    customImage = "images/square-modified.png"
 
     # define the icon you want to use for the overlay for the customImage or avatar.
     overlayIcon = "fa-home"
