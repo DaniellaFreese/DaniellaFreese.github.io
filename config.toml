@@ -19,6 +19,7 @@ googleAnalytics = ""
 # Enable / Disable comments on the articles via Disqus.
 disqusShortname = ""
 
+googleAnalytics = "G-JRGW0G2KDK"
 [params]
   # Custom CSS / JS modules that will be imported by the template.
   # Files are relative to the static/ directory or a URL.
