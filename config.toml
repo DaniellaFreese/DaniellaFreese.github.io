@@ -28,9 +28,9 @@ disqusShortname = ""
   js_modules = []
 
   # Description and meta data for the search engines
-  author = "Lednerb"
-  description = "Bilberry Premium Theme for Hugo."
-  keywords = "blog,personal,responsive,search,font awesome,pages,posts,multilingual,highlight.js,syntax highlighting,premium,shortcuts"
+  author = "danny freese"
+  description = "danny freese coding blog as a female software engineer."
+  keywords = "danny freese, female software engineer blog, coding"
 
   # How many articles should be displayed at once?
   paginate = 7
@@ -92,11 +92,11 @@ disqusShortname = ""
     overlayIcon = "fa-home"
 
     # always display the top navigation (with pages and search) on non-mobile screens
-    permanentTopNav = false
+    permanentTopNav = true
 
     # always display the top navigation when scrolling
     # works only with permanentTopNav = true
-    stickyNav = false
+    stickyNav = true
 
     # show a language chooser in the header
     showHeaderLanguageChooser = true
