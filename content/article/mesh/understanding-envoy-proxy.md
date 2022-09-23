@@ -1,5 +1,5 @@
 ---
-title: "Understanding Envoy Proxy"
+title: "Resources for Understanding Envoy Proxy"
 date: 2022-09-06
 draft: false
 
