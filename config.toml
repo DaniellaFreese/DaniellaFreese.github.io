@@ -183,9 +183,23 @@ disqusShortname = ""
   [markup.goldmark]
     [markup.goldmark.renderer]
       # Change to 'true' if you need to render raw HTML within your markdown content
-      unsafe = false
+      unsafe = true
 
   [markup.tableOfContents]
     endLevel = 5
     ordered = false
     startLevel = 2
+
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    noHl = false
+    style = 'solarized-dark'
+    tabWidth = 2
