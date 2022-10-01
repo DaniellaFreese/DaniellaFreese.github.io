@@ -7,5 +7,4 @@ excludeFromTopNav: false
 
 ### Conferences
 
-**Kong Summit 2022** : Crawl/Walk/Run - A Migration Journey to the Cloud.
-
+**Kong Summit 2022**: Crawl/Walk/Run - A Migration Journey to the Cloud. [link](https://konghq.com/conferences/kong-summit/speakers)
