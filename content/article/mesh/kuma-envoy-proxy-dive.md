@@ -1,5 +1,5 @@
 ---
-title: "Kong Mesh - Diving into the Envoy Proxy Configuration"
+title: "Kong Mesh - Tracing the Envoy Proxy Configuration"
 date: 2022-10-05
 draft: false
 
@@ -12,8 +12,6 @@ author: "djfreese"
 Learning more about Kong Mesh and Envoy Proxy, I wanted to be able to understand how Envoy Proxy connects all the networks dots through its configuration file.
 
 So I recently spun Kong Mesh with several dataplanes and I wanted to see if via the xds configuration I could trace it all.
-
-TODO PICTURE OF THE
 
 Basically what I wanted to manually see was all the steps Envoy takes to make the below connection happen:
 
