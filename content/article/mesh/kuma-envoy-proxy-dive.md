@@ -6,14 +6,13 @@ draft: false
 categories: ["Service Mesh"]
 tags: ["service mesh", "Kong Mesh", "Kuma", "Envoy Proxy"]
 toc: false
+summary: "**Situation:** Learning more about Kong Mesh and Envoy Proxy, I wanted to be able to understand how Envoy Proxy connects all the networks dots through its configuration file. So I spun Kong Mesh with several dataplanes trace it all."
 author: "djfreese"
 ---
 
-Learning more about Kong Mesh and Envoy Proxy, I wanted to be able to understand how Envoy Proxy connects all the networks dots through its configuration file.
+**Situation:** Learning more about Kong Mesh and Envoy Proxy, I wanted to be able to understand how Envoy Proxy connects all the networks dots through its configuration file. So I spun Kong Mesh with several dataplanes trace it all.
 
-So I recently spun Kong Mesh with several dataplanes and I wanted to see if via the xds configuration I could trace it all.
-
-Basically what I wanted to manually see was all the steps Envoy takes to make the below connection happen:
+Basically what I wanted to see manually was all the steps Envoy takes to make the below connection happen:
 
 ```
 Kong Gateway --> Envoy Proxy of Gateway --> Envoy Proxy of Monolith --> Monolith
