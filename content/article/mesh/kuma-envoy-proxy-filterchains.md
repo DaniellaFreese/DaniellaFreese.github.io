@@ -1,5 +1,5 @@
 ---
-title: "Kong Mesh - Understanding how the Kong Mesh translates TrafficRoute Policies to Envoy Proxy Configuration"
+title: "Kong Mesh - Understanding how Kong Mesh translates TrafficRoute Policies to Envoy Proxy Configuration"
 date: 2022-10-06
 draft: false
 
