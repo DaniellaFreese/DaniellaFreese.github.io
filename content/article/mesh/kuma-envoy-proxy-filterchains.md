@@ -6,11 +6,11 @@ draft: false
 categories: ["Service Mesh"]
 tags: ["service mesh", "Kong Mesh", "Kuma", "Envoy Proxy"]
 toc: false
-summary: "**Situation:** Learning more about Kong Mesh and Envoy Proxy Part: I wanted to understand specifically how a Traffic Route translates to Envoy Proxy Configuration and which Sidecar Proxies."
+summary: "**Situation:** Learning more about Kong Mesh and Envoy Proxy: I wanted to understand specifically how a Traffic Route translates to Envoy Proxy Configuration and which Sidecar Proxies."
 author: "djfreese"
 ---
 
-**Situation:** Learning more about Kong Mesh and Envoy Proxy Part: I wanted to understand specifically how a Traffic Route translates to Envoy Proxy Configuration and which Sidecar Proxies.
+**Situation:** Learning more about Kong Mesh and Envoy Proxy: I wanted to understand specifically how a Traffic Route translates to Envoy Proxy Configuration and which Sidecar Proxies.
 
 In the previous blog I quickly ran through the configuration of a delegated gateway, and services to see all the moving parts of the Envoy Proxy Configuration. In this second blog I want to very specifically notes how the `Traffic Route` is translated to Envoy and passed down.
 
