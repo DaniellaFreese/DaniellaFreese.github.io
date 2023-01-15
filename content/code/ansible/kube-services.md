@@ -10,17 +10,17 @@ summary: "I recently got stuck trying to figure out how to wait for a Kuberentes
 author: "djfreese"
 ---
 
-I have been using ansible to do some demo automation in Kubernetes and Openshift. I ran into an issue where a Kuberentes Service would still not be ready for consumption even though the automation has logic to wait until the Pod Status is ready. The main problem is for a Kuberentes Service of type ClusterIP the status portion of the object is never updated. To know if the Service is ready you need to check the endpoints object, if it's populated then the service is ready.
+I have been using ansible to do some demo automation in Kubernetes and Openshift. I ran into an issue where a Kubernetes Service would still not be ready for consumption even though the automation has logic to wait until the Pod Status is ready. The main problem is for a Kuberentes Service of type ClusterIP the status portion of the object is never updated. To know if the Service is ready you need to check the endpoints object, if it is populated then the service is ready.
 
 ### Problem
 
-The problem I was having was after installing the cert-manager in Openshift (via Operator Hub in Openshift) its takes a few second to boostrap the resources and the next task, dependent on the cert-manager service to be available, would fail.
+The problem I was having was after installing the cert-manager in Openshift (via Operator Hub in Openshift) is it takes a few second to boostrap the resources and the next task, dependent on the cert-manager service to be available, would fail.
 
 ### Solution
 
 To resolve the problem, after installing the operator, I wait for the cert-manager related pods to be to ready, then when I execute the next task, I put it into an ansible `until` loop, register the result and retry until the task succeeds. This was a slightly lazy hackish way of not having to parse out the endpoint object each time to check.
 
-So this solution looks lik the following:
+So this solution looks like the following:
 
 ```yaml
 - name: Wait for Cert Manager Pod to be Ready
