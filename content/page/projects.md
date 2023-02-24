@@ -13,3 +13,7 @@ target: "_blank"
 ## Kong Konnect and ROSA APISecOps Story
 
 [Kong Konnect and ROSA APISecOps GitHub Repo](https://github.com/Kong/kong-apisecops-redhat)
+
+## AWS CloudTrail Kong Enterprise Integration
+
+[Kong-cloudtrail-integration GitHub Repo](https://github.com/Kong/kong-cloudtrails-integration)

@@ -10,6 +10,8 @@ excludeFromTopNav: false
 
 [How APISecOps Protects Against API Abuse](https://konghq.com/blog/apisecops)
 
+[APISecOps Tutorial Kong Konnect and ROSA](https://konghq.com/blog/apisecops-tutorial)
+
 ## Talks
 
 ### 2022
