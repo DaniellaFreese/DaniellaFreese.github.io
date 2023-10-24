@@ -1,6 +1,6 @@
 ---
 title: "About"
-date: 2022-08-21
+date: 2023-08-21
 excludeFromTopNav: false
 showDate: false
 ---
@@ -13,7 +13,7 @@ After finally decided to leave school behind, because honestly I can't live in s
 
 Today, I recently change positions as a Partner Developer for Kong Inc., which is a multi-faceted position involving coding, general technical competency, communication, and even marketing.
 
-Where am I today with personal education?  Well outside of technical studies which is a constantly evolving field, I study economics, finance, whatever it takes to be a more business minded individual.
+Where am I today with personal education?  Well, it's backwards into AI and ML, front-end development, testing out new CNCF projects, and more cloud related technologies (wasm, proxy-wasm).
 
 So welcome to my blog, and I hope you enjoy the content.
 

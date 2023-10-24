@@ -17,6 +17,6 @@ That doesn't make Security on OpenShift any less confusing. There are Security C
 
 2.[Managing SCCS in OpenShift](https://cloud.redhat.com/blog/managing-sccs-in-openshift)
 
-This third listing is great for the basics of security with docker.
+This third listing is great for the basics of security with just sdocker.
 
 3.[Understanding Docker Security Capabilities](https://dockerlabs.collabnix.com/advanced/security/capabilities/)
